@@ -1,0 +1,37 @@
+{# Note: Whitespace (or lack thereof) is important for formatting #}
+{# TODO handle ebook/json export #}
+
+{% macro instruction_header(name, summary, opcodes, arguments='') %}
+<style type="text/css">
+  .opcodes {
+    float: right;
+    padding: 0.33em;
+    border: 1px solid #364149;
+  }
+  .opcodes h3 {
+    margin: 0;
+    line-height: 1.2em;
+  }
+  h1.instruction-header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  p.instruction-summary {
+    font-style: italic;
+  }
+</style>
+<div class='opcodes'>
+  {%- for opcode in opcodes -%}
+    <h3>{{ opcode }}</h3>
+  {%- endfor -%}
+</div><h1 class='instruction-header'>{{ name }}</h1><p class="instruction-summary">{{ summary }}</p>
+<pre>
+  {%- if arguments -%}
+    {%- set comma = joiner() -%}
+    {%- for arg_type, arg_name in arguments -%}
+      {{ comma() }}<em>{{ arg_type }}</em> <strong>{{ arg_name }}</strong>
+    {%- endfor -%}
+  {%- else -%}<strong>no arguments</strong>
+  {%- endif -%}
+</pre><hr style='clear: both;'>
+{% endmacro %}
