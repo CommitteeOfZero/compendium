@@ -8,10 +8,10 @@ The following releases are **known to utilize MAGES. engine**. Simultaneous rele
 * **[Chaos;Child Love ChuChu!! (Vita)](https://vndb.org/r48746)**
 * **[Chaos;Head Love ChuChu! (PS3)](https://vndb.org/r24267)**
 * **[Chaos;Head Love ChuChu! (Vita)](https://vndb.org/r38137)** (released together with *Chaos;Head Noah* as *Chaos;Head Dual*)
-* **[Chaos;Child (iOS)](https://vndb.org/r50250)** (**trial version has worklist**)
+* **[Chaos;Child (iOS)](https://vndb.org/r50250)**
 * **[Chaos;Child (PC)](https://vndb.org/r44367)**
 * **[Chaos;Child (PS3)](https://vndb.org/r39460)**
-* **[Chaos;Child (Vita)](https://vndb.org/r39462)**
+* **[Chaos;Child (Vita)](https://vndb.org/r39462)** (**trial version has worklist**)
 * **[Steins;Gate Hiyoku Renri no Darling (iOS)](https://vndb.org/r34593)** (**uses SRC**)
 * **[Steins;Gate Hiyoku Renri no Darling (PS3)](https://vndb.org/r19067)**
 * **[Steins;Gate Hiyoku Renri no Darling (Vita)](https://vndb.org/r24490)**
@@ -30,7 +30,7 @@ The following releases are **known to utilize MAGES. engine**. Simultaneous rele
 * **[Steins;Gate (PS3)](https://vndb.org/r19066)**
 * **[Steins;Gate (Android)](https://vndb.org/r30509)** (**uses SRC**[^1])
 * **[Steins;Gate (iOS)](https://vndb.org/r15035)** (**uses SRC**)
-* **[Steins;Gate (360)](https://vndb.org/r5362)** (*we need to check this again!*)
+* **[Steins;Gate (360)](https://vndb.org/r5362)**
 * **[Umisho (PS2)](https://vndb.org/r12222)**
 * **[Steins;Gate 0 (PC)](https://vndb.org/r45682)**
 * **[Steins;Gate 0 (PS3)](https://vndb.org/r40963)**
