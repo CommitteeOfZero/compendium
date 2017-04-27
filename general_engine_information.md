@@ -17,5 +17,7 @@ MAGES. engine has a few particularly notable variations:
 
 * **KID engine:** The original. We don't know much about it except strings are encoded using a standard encoding (with in-band markup sequences) in Ever17.
 * **[11eyes PC](https://vndb.org/v729):** Ships scripts in *SCS*, apparently the original source code format.
-* **Mobile ports:** The *Android* and *iOS* versions of *Steins;Gate* and its fandiscs ship scripts in *SRC*, apparently a preprocessed source code format. We have not investigated whether the runtimes originate from the same codebase as the console/PC versions (apart from the *Android* version of *S;G*, which is a complete Java rewrite). Note the *iOS* port of *Chaos;Child* (and likely any future titles) uses binary *SCX* scripts like the primary version.
+* **Mobile ports:** The *Android* and *iOS* versions of *Steins;Gate* and its fandiscs ship scripts in *SRC*[^1], apparently a preprocessed source code format. We have not investigated whether the runtimes originate from the same codebase as the console/PC versions (apart from the *Android* version of *S;G*, which is a complete Java rewrite). Note the *iOS* port of *Chaos;Child* (and likely any future titles) uses binary *SCX* scripts like the primary version.
 * **[Chaos;Head Dual](https://vndb.org/r38137):** Vita release that combines *Chaos;Head Noah* and *Chaos;Head Love ChuChu!*; the latter is built in MAGES. engine, the former on rUGP, but there is asset sharing between the two.
+
+[^1]: On Android, the scripts are "encrypted" using a trivial shift cipher.

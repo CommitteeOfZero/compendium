@@ -28,13 +28,15 @@ The following releases are **known to utilize MAGES. engine**. Simultaneous rele
 * **[Robotics;Notes (360)](https://vndb.org/r19801)** (3D models)
 * **[Steins;Gate (PC/Steam)](https://vndb.org/r47588)** (not to be confused with the original PC version)
 * **[Steins;Gate (PS3)](https://vndb.org/r19066)**
-* **[Steins;Gate (Android)](https://vndb.org/r30509)** (**uses SRC**)
+* **[Steins;Gate (Android)](https://vndb.org/r30509)** (**uses SRC**[^1])
 * **[Steins;Gate (iOS)](https://vndb.org/r15035)** (**uses SRC**)
 * **[Steins;Gate (360)](https://vndb.org/r5362)** (*we need to check this again!*)
 * **[Umisho (PS2)](https://vndb.org/r12222)**
 * **[Steins;Gate 0 (PC)](https://vndb.org/r45682)**
 * **[Steins;Gate 0 (PS3)](https://vndb.org/r40963)**
 * **[Steins;Gate 0 (Vita)](https://vndb.org/r40964)** (**Japanese version has worklist**)
+
+[^1]: Android SRC is "encrypted" using a trivial shift cipher
 
 ## Unrelated game list
 
