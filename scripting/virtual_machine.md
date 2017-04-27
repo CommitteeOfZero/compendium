@@ -50,4 +50,17 @@ typedef struct __declspec(align(4))
 } SC3ThreadContext;
 ```
 
-Notably, there are indeed **no general-purpose registers**, function-local parameters/variables, a freely accessible stack etc.
+Notably, there are indeed **no general-purpose registers**, function-local parameters/variables, return values, a freely accessible stack etc.
+
+## Memory
+
+Scripts have access to the following kinds of memory:
+
+* **32 thread-local variables**, one set per thread, as mentioned above.
+* **8,000 global variables**. Similar to thread-local variables, but global across all threads. Some of these variables are only used by scripts, some are only used by the runtime (and thus need not be reimplemented), some are shared. The reference implementation uses an array of 8,000 32-bit integers for this; we recommend doing the same, as some game systems loop over arrays of structures inside this memory.
+* **6,400 global flags**. Like global variables, except they're single bits, and thus officially implemented as an 800 byte bitfield.
+* **Indexed data**. Scripts can contain local data arrays. These are accessed via the array's [label ID](/scripting/scx_file_format.md) and an element index.
+
+Details on how these accesses are specified can be found in the expression specification. (TODO link)
+
+(TODO link to symbol list based on worklist.txt)
