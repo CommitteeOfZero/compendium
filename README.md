@@ -10,7 +10,7 @@ At first, we will *only* describe the specific version used in *Steins;Gate 0's*
 
 ## Who this guide is for
 
-Our primary end goal is to make Science Adventure visual novels fan translatable withou requiring significant technical skill. To accomplish this, we are working on a toolset for extracting, decoding and modifying game assets. But we're not quite there yet. We intend to add a User's Guide / manual for this when we're closer.
+Our primary end goal is to make Science Adventure visual novels fan translatable without requiring significant technical skill. To accomplish this, we are working on a toolset for extracting, decoding and modifying game assets. But we're not quite there yet. We intend to add a User's Guide / manual for this when we're closer.
 
 For now, we are focusing on specifying the scripting virtual machine and how it fits in with the rest of the engine, mostly to serve as a reference for our own projects. For this section, the reader is assumed to be familiar with the basic concepts of designing and implementing embedded programming languages. It is intended to be helpful to people creating tools for working with *SC3* scripts or reimplementing the runtime. Note that this documentation alone may not be sufficient information to accomplish those tasks, and you may need to do some reverse-engineering yourself.
 
