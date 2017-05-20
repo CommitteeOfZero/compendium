@@ -105,7 +105,12 @@ An operator's first byte indicates its type.
 [^2]: Attention: The order for assignment is And-Or-Xor, not And-Xor-Or as for the assignmentless operators.
 [^3]: There is code to handle these in the reference implementation, but it just skips them.
 
-TODO: figure out return value of assignment, especially whether increment/decrement is pre or post
+### Assignment semantics
+
+* The increment/decrement operators are **post-increment/decrement**.
+* Assignments evaluate to the right-hand side (e.g. `eval("GlobalVars[7800] = 5")` returns 5).
+* **Multiple assignment** (e.g. `GlobalVars[7801] = GlobalVars[7800] = 5`) is not supported - the expression will evaluate to 0 and no assignment will be made.
+* Increment/decrement operations in an assignment (e.g. `GlobalVars[7801] = GlobalVars[7800]++`) have no effect (the previous example is equivalent to `GlobalVars[7801] = GlobalVars[7800]`).
 
 ### Functions
 
