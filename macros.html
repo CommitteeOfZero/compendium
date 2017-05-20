@@ -27,7 +27,7 @@
 </div><h1 class='instruction-header'>{{ name }}</h1><p class="instruction-summary">{{ summary }}</p>
 <pre>
   {%- if arguments -%}
-    {%- set comma = joiner() -%}
+    {%- set comma = joiner(', ') -%}
     {%- for arg_type, arg_name in arguments -%}
       {{ comma() }}<em>{{ arg_type }}</em> <strong>{{ arg_name }}</strong>
     {%- endfor -%}
