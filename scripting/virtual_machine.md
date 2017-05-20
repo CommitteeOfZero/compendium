@@ -34,12 +34,12 @@ typedef struct __declspec(align(4))
   /* 0018 */  unsigned int sleep_timeout;
   /* 001C */  _BYTE gap28[8];
   /* 0024 */  unsigned int loop_counter;
-  /* 0028 */  unsigned int loop_target_block_id;
+  /* 0028 */  unsigned int loop_target_label_id;
   /* 002C */  unsigned int call_stack_depth;
   /* 0030 */  unsigned int ret_address_ids[8];
-  /* 0050 */  unsigned int ret_address_slot_ids[8];
+  /* 0050 */  unsigned int ret_address_script_buffer_ids[8];
   /* 0070 */  int thread_id;
-  /* 0074 */  int slot_id;
+  /* 0074 */  int script_buffer_id;
   /* 0078 */  _BYTE gap120[68];
   /* 00BC */  int thread_local_variables[32];
   /* 013C */  int somePageNumber;
