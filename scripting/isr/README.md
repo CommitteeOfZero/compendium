@@ -6,7 +6,7 @@ The following **argument types** are supported:
 
 * `uchar`: An unsigned 8-bit integer. Usually used for selecting one instruction from an instruction group.
 * `ushort`: An unsigned 16-bit integer. Usually used to reference [string, label or return address IDs](/scripting/scx_file_format.md).
-* `expr`: An expression. (TODO link)
+* `expr`: An [expression](/scripting/expressions.md).
 
 ## How to read this
 

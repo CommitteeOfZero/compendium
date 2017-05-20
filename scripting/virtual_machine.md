@@ -61,6 +61,6 @@ Scripts have access to the following kinds of memory:
 * **6,400 global flags**. Like global variables, except they're single bits, and thus officially implemented as an 800 byte bitfield.
 * **Indexed data**. Scripts can contain local data arrays. These are accessed via the array's [label ID](/scripting/scx_file_format.md) and an element index.
 
-Details on how these accesses are specified can be found in the expression specification. (TODO link)
+Details on how these accesses are specified can be found in the [expression specification](/scripting/expressions.md).
 
 (TODO link to symbol list based on worklist.txt)
