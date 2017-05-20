@@ -8,7 +8,7 @@ SC3 includes a **binary infix encoding** for mathematical expressions, used in i
   * `token[0] > 0`: The token is an operator.
   * `token[0] < 0`: The token is an immediate value.
   * `token[0] == 0`: End of expression.
-* The last byte of the token indicates **precedence**. Operators with highest precedence must be evaluated first. For immediate values, precedence is meaningless, but the byte is still present. "End of expression" tokens do not conclude with a precedence byte. Operator types do not have
+* The last byte of the token indicates **precedence**. Operators with highest precedence must be evaluated first. For immediate values, precedence is meaningless, but the byte is still present. "End of expression" tokens do not conclude with a precedence byte. Operator types have no implicit precedence rules (in binary SC3), the only thing that matters is this value.
 * Operators only consist of the token type and precedence byte, immediate values may have more bytes in between, see below.
 
 Expressions (and all included terms) evaluate to **32-bit signed integers**.
