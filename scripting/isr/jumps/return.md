@@ -6,3 +6,5 @@
 ) }}
 
 Pop script buffer ID and return address ID off call stack, then jump there.
+
+Returning when the call stack is empty is undefined.

@@ -52,6 +52,8 @@ typedef struct __declspec(align(4))
 
 Notably, there are indeed **no general-purpose registers**, function-local parameters/variables, return values, a freely accessible stack etc.
 
+In the reference implementation, executing most *undefined* operations causes the offending thread to lock up because the program counter is not changed. As they never relinquish control, this also locks up the game unless they are killed by other threads. Some undefined operations (e.g. some undefined two-byte opcodes) cause out-of-bounds reads that crash the program instead.
+
 ## Memory
 
 Scripts have access to the following kinds of memory:
