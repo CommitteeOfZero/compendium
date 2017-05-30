@@ -13,7 +13,7 @@ MAGES. engine uses a **custom string encoding** for storing text.
 
 Characters are stored as unsigned 16-bit *big-endian* integers, from which 0x8000 must be subtracted to obtain the character index (for the font texture and width table) - i.e. 0x8000 is character 0.
 
-Most MAGES. engine game executables contain a *mostly but not entirely* complete and accurate **UTF-16 conversion table**, likely a debug leftover.
+The character set is **game specific**. Most MAGES. engine game executables contain a *mostly but not entirely* complete and accurate **UTF-16 conversion table**, likely a debug leftover.
 
 Note that not all characters necessarily correspond to a Unicode codepoint - most character sets contain some *compound characters* made up of several Unicode codepoints.
 
