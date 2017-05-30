@@ -8,6 +8,7 @@ The following releases are **known to utilize MAGES. engine**. Simultaneous rele
 * **[Chaos;Child Love ChuChu!! (Vita)](https://vndb.org/r48746)**
 * **[Chaos;Head Love ChuChu! (PS3)](https://vndb.org/r24267)**
 * **[Chaos;Head Love ChuChu! (Vita)](https://vndb.org/r38137)** (released together with *Chaos;Head Noah* as *Chaos;Head Dual*)
+* **[Chaos;Child (Android)](https://vndb.org/r51839)** (**has exported names for EVERYTHING**)
 * **[Chaos;Child (iOS)](https://vndb.org/r50250)**
 * **[Chaos;Child (PC)](https://vndb.org/r44367)**
 * **[Chaos;Child (PS3)](https://vndb.org/r39460)**
