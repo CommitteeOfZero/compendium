@@ -9,6 +9,7 @@
 * [The virtual machine](scripting/virtual_machine.md)
 * [SCX file format](scripting/scx_file_format.md)
 * [Expression encoding](scripting/expressions.md)
+* [String encoding](scripting/strings.md)
 * [Instruction set reference](scripting/isr/README.md)
   * [Assign instruction](scripting/isr/assign.md)
   * [Jumps](scripting/isr/jumps/README.md)
