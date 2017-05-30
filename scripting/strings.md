@@ -7,7 +7,7 @@ MAGES. engine uses a **custom string encoding** for storing text.
 * The first byte of the token, treated as an unsigned 8-bit integer, indicates its **type**:
   * `token[0] >= 0x80`: The token is a character.
   * `token[0] < 0x80`: The token is a command.
-
+* Strings are **terminated** with a 0xFF byte.
 
 ## Characters
 
